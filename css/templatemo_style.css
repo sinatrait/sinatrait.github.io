@@ -45,7 +45,7 @@ h1	{	font-size: 1.5em;
 	
 h2	{ font-size: 24px; color: #333333; }
 
-.templatemo_reasonbg h2, .templatemo_blog h2 { color: #ffffff; }
+.templatemo_blog h2 { color: #ffffff; }
 
 img {
   	max-width: 100%;
@@ -137,7 +137,7 @@ img {
 	border-color: #bd8f1d;
 }
 
-.templatemo_caption p { color: #ffffff; background: rgba(0, 0, 0, 0.32); padding: 10px; font-size: 12px; }
+.templatemo_caption p { color: #ffffff; background: rgba(0, 0, 0, 0.32); padding: 10px; font-weight: 200;font-size: 1.6em; font-size: 1.5vw;}
 
 .templatemo_caption	{
 	margin-left: 20%;
@@ -177,10 +177,11 @@ img {
 
 .templatemo_about_box {
 	background: #ffffff;
-	border-radius: 5px;
-	padding: 20px 0px;
+	
+	padding: 20px 0 0 0;
 	text-align: center;
 }
+.templatemo_about_box h3{text-transform:uppercase;font-size: small;background-color:#c7c7c7;padding:16px 0;color:#000000;font-weight: bold;}
 
 .square_coner {
 	margin: 0 auto;
@@ -188,13 +189,15 @@ img {
 	margin-bottom: 20px;
 
 }
+
 .texts-a {
 	display: table-cell;
 	vertical-align: middle;
 	text-align: center;
-	padding: 20px 30px;
+	/*padding: 20px 30px;*/
 	background: #daa520;
-	border-radius: 5px;
+	width:90px;
+	height: 81px;
 	font-size: 32px;
 	color: #ffffff;
 } 
@@ -205,8 +208,8 @@ img {
     left: 4%;
     width: 92%;
     height: 100%;
-	border-radius: 5px;
-    background: #daa520;
+	
+    background: #ffffff;
     visibility: hidden\0/;
     opacity: 0\0/;
     transition: all 0.25s ease-in-out;
@@ -222,7 +225,7 @@ img {
 
 .project-post:hover .hover-box {
     visibility: visible;\0/;
-    opacity: 1\0/;
+    opacity: 9\0/;
     -webkit-transform: rotateY(0deg) scale(1);
     -moz-transform: rotateY(0deg) scale(1);
     -ms-transform: rotateY(0deg) scale(1);
@@ -231,10 +234,22 @@ img {
 }
 
 .inner-hover-box p {
-	color: #ffffff;
 	padding: 15px 10px;
+	cursor: default;
 }
-
+.sinatra-merrits {
+	background: url(../images/sinatra-merrits.jpg) repeat;
+	background-position: center;
+	padding: 70px 0px 70px 0px;
+	color:#908f8f;
+	text-align: center;
+}
+.sinatra-merrits h2, .templatemo_reasonbg h2{color:#908f8f;}
+.sinatra-merrits ul{margin:25px;display: inline-block;}
+.sinatra-merrits ul li{float:left;clear:both;max-width: 45em;
+    margin-bottom: inherit;
+    text-align: left;
+    font-weight: 200;}
 .templatemo_reasonbg {
 	background: url(../images/templatemo_reasonbg.jpg) repeat;
 	background-position: center;
@@ -781,6 +796,7 @@ and (max-device-width : 1024px) {
 }
 .float-left{float:left;}
 .top-margin-30{margin-top:30px;}
+.bottom-margin-30{margin-top:30px;}
 .about-wrap{padding:40px;text-align: left;font-weight: 100;}
 .sinatra-building{
 	background-image: url("../images/sinatra-it-solutions-building.jpg");
@@ -788,5 +804,7 @@ repeat:no-repeat;position:  0 0;
 background-size: 100%;
 height:33em;
 }
-.quote-text{}
-
+.quote-text{color:#908f8f;}
+.major-industries{margin-top:50px;}
+.major-industries p{font-size: 1.3em;text-align: center;}
+.major-industries h3{padding:20px;background-color:#bf9436;color:#000000;text-transform: uppercase;text-align: center;font-size: medium;}
