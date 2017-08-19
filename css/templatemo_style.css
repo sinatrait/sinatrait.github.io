@@ -97,6 +97,7 @@ img {
 
 #top-menu {
     background: white;
+	display: inline;
 }
 #top-menu ul { float: right;}
 #top-menu li {
@@ -565,12 +566,12 @@ img {
 }
 
 #templatemo_flicker	{}
-#templatemo_flicker ul li:before {
+#templatemo_flicker ul li:before, .material ul li:before {
     content: none;
     vertical-align: middle;
 }
 
-#templatemo_flicker.ddsmoothmenu ul li a {
+#templatemo_flicker.ddsmoothmenu ul li a, .material.ddsmoothmenu ul li a {
 	width: 55px;
 	height: 55px;
 	margin-right: 0px;
@@ -591,6 +592,7 @@ ul.footer_gallery li img { }
 @media only screen 
 and (min-device-width : 320px) 
 and (max-width : 480px) {
+
 	/*.mainMenu li a {		
 		font-size: 8px;
 	}
@@ -616,7 +618,7 @@ and (max-width : 480px) {
 }
 @media (max-width:600px){
 	.templatemo_caption {
-		display: none;
+		top: 15%;
 	}
 }
 @media(min-width:500px) and (max-width: 650px){
@@ -624,6 +626,7 @@ and (max-width : 480px) {
     left: 5%;
     width: 90%;
 	}
+	.quote-text{margin-top:20px;}
 }
 @media(max-width:767px){
 	.templatemo_col9	{ padding: 0px;}
@@ -808,3 +811,15 @@ height:33em;
 .major-industries{margin-top:50px;}
 .major-industries p{font-size: 1.3em;text-align: center;}
 .major-industries h3{padding:20px;background-color:#bf9436;color:#000000;text-transform: uppercase;text-align: center;font-size: medium;}
+.material ul{list-style: none;}
+.material ul li{display: inline-block; margin:5px; width:81px; height:92px;overflow:hidden;border:1px solid #ccc;padding:3px;}
+.material ul li a{text-align: center;padding: 5px;text-transform: uppercase;color: #000000;width: 100%;display: inline-block;font-size:x-small;}
+.address{margin-top:75px;}
+
+
+
+ @media only screen 
+and (min-device-width : 320px) 
+and (max-width : 990px) {
+	.address{margin-top: 0px;}
+}
