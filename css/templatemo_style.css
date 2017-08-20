@@ -819,7 +819,7 @@ height:33em;
 }
 .quote-text{color:#908f8f;}
 .major-industries{margin-top:50px;}
-.major-industries p{font-size: 1.3em;text-align: center;}
+.major-industries p, .services-text{font-size: 1.3em;text-align: center;font-weight: 200;color: #000000;}
 .major-industries h3{margin-top:-1px;padding:20px;background-color:#bf9436;color:#000000;text-transform: uppercase;text-align: center;font-size: medium;}
 .major-industries .trading{position:relative;margin-top:20px;}
 .major-industries .trading img{width:100%;}
