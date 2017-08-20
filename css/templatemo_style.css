@@ -619,11 +619,14 @@ and (max-width : 480px) {
 }
 @media (max-width:600px){
 	.templatemo_caption {
-		top: 21%;
+		top: 180px;
 		font-size:
 	}
 	.templatemo_caption h1{		
 		font-size:1em;
+	}	
+	.templatemo_caption p{		
+		display:none;
 	}	
 }
 @media(min-width:500px) and (max-width: 650px){
@@ -774,7 +777,7 @@ and (max-width : 480px) {
       margin-top: -15px;
   }
   .txtarea {
-    margin: 0;
+    margin: 0 0 20px 0;
   }
   #box-img_testimonial a {
     width: 50px;
@@ -817,7 +820,9 @@ height:33em;
 .quote-text{color:#908f8f;}
 .major-industries{margin-top:50px;}
 .major-industries p{font-size: 1.3em;text-align: center;}
-.major-industries h3{padding:20px;background-color:#bf9436;color:#000000;text-transform: uppercase;text-align: center;font-size: medium;}
+.major-industries h3{margin-top:-1px;padding:20px;background-color:#bf9436;color:#000000;text-transform: uppercase;text-align: center;font-size: medium;}
+.major-industries .trading{position:relative;margin-top:20px;}
+.major-industries .trading img{width:100%;}
 .material ul{list-style: none;}
 .material ul li{display: inline-block; margin:5px; width:81px; height:92px;overflow:hidden;border:1px solid #ccc;padding:3px;}
 .material ul li a{text-align: center;padding: 5px;text-transform: uppercase;color: #000000;width: 100%;display: inline-block;font-size:x-small;}
@@ -828,3 +833,7 @@ and (min-device-width : 320px)
 and (max-width : 990px) {
 	.address{margin-top: 0px;}
 }
+.iso{width:74px;margin-top:15px;opacity:.7;}
+.services-contact .square_coner{width:215px;margin-top:10px;}
+.templatemo_caption .btn-primary .fa{margin:3px 3px 0 -12px;}
+.nivoSlider a.nivo-imageLink{cursor:default;}
