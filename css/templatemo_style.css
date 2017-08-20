@@ -831,7 +831,7 @@ height:33em;
  @media only screen 
 and (min-device-width : 320px) 
 and (max-width : 990px) {
-	.address{margin-top: 0px;}
+	.address{margin-top: 20px;}
 }
 .iso{width:74px;margin-top:15px;opacity:.7;}
 .services-contact .square_coner{width:215px;margin-top:10px;}
