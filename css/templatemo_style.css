@@ -619,13 +619,13 @@ and (max-width : 480px) {
 }
 @media (max-width:600px){
 	.templatemo_caption {
-		top: 180px;
+		top: 120px;
 		font-size:
 	}
 	.templatemo_caption h1{		
 		font-size:1em;
 	}	
-	.templatemo_caption p{		
+	.templatemo_caption h1{		
 		display:none;
 	}	
 }
@@ -833,7 +833,16 @@ and (min-device-width : 320px)
 and (max-width : 990px) {
 	.address{margin-top: 20px;}
 }
+ @media only screen 
+and (min-device-width : 320px) 
+and (max-width : 768px) {
+	#top-menu{height:40px;}
+#top-menu ul {margin-top: -10px;}
+
+}
+
 .iso{width:74px;margin-top:15px;opacity:.7;}
 .services-contact .square_coner{width:215px;margin-top:10px;}
 .templatemo_caption .btn-primary .fa{margin:3px 3px 0 -12px;}
 .nivoSlider a.nivo-imageLink{cursor:default;}
+.nivo-directionNav{display:none;}
