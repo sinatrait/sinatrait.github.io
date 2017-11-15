@@ -12,7 +12,7 @@ background-color: #f47000 !important; }
 .bg-primary p{
 color: #ffffff; }
 .bg-primary ul{list-style: none;}
-
+section#sinatrait{background:#212529 url(../img/sinatra-logo-bg.png) no-repeat right;}
 
 #mainNav.navbar-shrink {
 border-bottom: 1px solid rgba(33,37,41,.1);
