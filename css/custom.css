@@ -16,11 +16,25 @@ section#sinatrait{background:#212529 url(../img/sinatra-logo-bg.png) no-repeat r
 
 #mainNav.navbar-shrink {
 border-bottom: 1px solid rgba(33,37,41,.1);
-background-color: rgba(255, 255, 255, .9);
+background-color: rgba(000, 000, 000, .9);
 }
 #mainNav.navbar-shrink .navbar-brand {
 color: #000000;
 }
+#mainNav .navbar-nav>li.nav-item>a.nav-link, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus {
+    
+    color: #b3b5b7;
+}
+@media (min-width: 992px){
+#mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link, #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus{
+    color: #b3b5b7;
+}
+}
+#mainNav .navbar-nav>li.nav-item>a.nav-link.active, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus.active {
+    color: #f47000!important;
+    background-color: transparent;
+}
+.navbar-light .navbar-toggler-icon {background-color: #303030;}
 .text-primary {
 color: #f47000!important;
 font-size:2rem;
@@ -36,7 +50,7 @@ max-width: 50%;
 border: 1px solid #cccccc;
 opacity: .5;
 }
-.iso{width:74px;margin-top:15px;opacity:.7;}
+.iso{width:100px;margin-top:15px;opacity:.7;}
 .fluid-wrapper {
     position: relative;
     
