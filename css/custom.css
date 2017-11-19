@@ -21,6 +21,9 @@ background-color: rgba(000, 000, 000, .9);
 #mainNav.navbar-shrink .navbar-brand {
 color: #000000;
 }
+#mainNav {
+    background-color: transparent;
+    }
 #mainNav .navbar-nav>li.nav-item>a.nav-link, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus {
     
     color: #b3b5b7;
@@ -34,7 +37,7 @@ color: #000000;
     color: #f47000!important;
     background-color: transparent;
 }
-.navbar-light .navbar-toggler-icon {background-color: #303030;}
+.navbar-light .navbar-toggler-icon {background-color: #303030;border-radius: 3px;}
 .text-primary {
 color: #f47000!important;
 font-size:2rem;
