@@ -72,4 +72,5 @@ opacity: .5;
 footer {
 padding: 2rem 0; font-size: small;border-top:1px solid #cccccc;
 }
+.displaynone{display:none;}
 .update-actifio{background-image: url(../img/unleash-the-power-of-cloud.jpg);background-position: center bottom;    background-size: cover;}
